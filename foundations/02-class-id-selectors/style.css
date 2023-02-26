@@ -1,0 +1,20 @@
+.oddnumbers {
+    background-color: rgb(241, 150, 150);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+
+}
+
+#numbertwo {
+    color: rgb(69, 6, 245);
+    font-size: 36px;
+}
+
+.numberthree {
+    font-size: 24px;
+}
+
+#numberfour {
+    background-color: hsl(135, 81%, 54%);
+    font-size: 24px;
+    font-weight: bold;
+}
