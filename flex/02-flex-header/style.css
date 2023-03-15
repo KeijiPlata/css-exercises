@@ -1,6 +1,20 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+
+  /* make the items in row */
+  display: flex;
+
+  /* make the items perfectly equal of space */
+  justify-content: space-between;
+
+  /* since we remove the default margin, we need to 
+  align the items cross axis to center */
+  align-items: center;
+
+  /* adding a padding to have extra space to left right */
+  padding: 5px;
+  
 }
 
 .logo {
@@ -14,7 +28,18 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+
+  /* making ul a flex will make the items in row */
+  display: flex;
+
+  /* removing the default margin and padding */
+  margin: 0;
+  padding: 0;
+
+  /* adding a gap between items */
+  gap: 5px;
 }
+
 
 a {
   font-size: 22px;
