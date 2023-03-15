@@ -3,6 +3,20 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  
+  /* 
+
+    to center div, 
+      - set display: flex to make the container a flexbox
+      - justify-content is for the main axis, means to center l t r
+      - align-items is for the cross axis, means t t b 
+      - this can be changed depending on flex direction
+  
+  */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
