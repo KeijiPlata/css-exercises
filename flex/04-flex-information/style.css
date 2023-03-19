@@ -1,4 +1,6 @@
 body {
+  /* center all of the text */
+  text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -10,6 +12,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  /* add margin to the bottom */
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +28,29 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.first, .second,
+.third, .fourth{
+
+  /* make the flex flow to column
+  so the items should not be in row */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  /* you can also make it 
+  max-width: 200px */
+
+  box-sizing: border-box;
+  width: 200px;
+  gap: 8px;
+  
+}
+.container {
+  /* make the container in row and center
+  the items with a gap of 52px */
+  display: flex;
+  justify-content: center;
+  gap: 52px;
 }
