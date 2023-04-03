@@ -5,6 +5,11 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  /* make the content in column */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -25,3 +30,42 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* remove bullets */
+li {
+  list-style-type: none;
+}
+
+/* removes the underline on anchor tag */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.left-links, .right-links {
+  display: flex;
+  padding: 0px 25px;
+  gap: 10px;
+  
+  
+}
+
+.content {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
